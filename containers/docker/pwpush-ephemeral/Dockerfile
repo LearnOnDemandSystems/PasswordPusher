@@ -1,7 +1,7 @@
 # pwpush-ephemeral
-FROM ruby:3.0.3
+FROM ruby:3.1.0
 
-LABEL maintainer='pglombardo@hey.com'
+LABEL maintainer='tai.janssen@skillable.com'
 
 ENV APP_ROOT=/opt/PasswordPusher
 ENV PATH=${APP_ROOT}:${PATH} HOME=${APP_ROOT}
@@ -12,10 +12,10 @@ RUN echo "deb https://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources
 
 # Required packages
 RUN apt-get update -qq && \
-    apt-get install -qq -y --assume-yes build-essential apt-utils libpq-dev git curl tzdata libsqlite3-0 libsqlite3-dev zlib1g-dev nodejs yarn
-
-RUN mkdir -p ${APP_ROOT}
-ADD ./ ${APP_ROOT}/
+    apt-get install -qq -y --assume-yes build-essential apt-utils libpq-dev git curl tzdata libsqlite3-0 libsqlite3-dev zlib1g-dev nodejs yarn && \
+    cd /opt && \
+    git clone https://github.com/LearnOnDemandSystems/PasswordPusher.git && \
+    touch ${APP_ROOT}/log/private.log
 
 EXPOSE 5100
 
