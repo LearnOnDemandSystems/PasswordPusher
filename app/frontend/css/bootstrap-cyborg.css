@@ -3084,14 +3084,14 @@ fieldset:disabled .btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #2a9fd6;
-  border-color: #2a9fd6;
+  background-color: #2f9660;
+  border-color: #2f9660;
 }
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #2487b6;
-  border-color: #227fab;
+  background-color: #1a7b4a;
+  border-color: #1a7b4a;
 }
 
 .btn-check:focus + .btn-primary, .btn-primary:focus {
@@ -7950,7 +7950,6 @@ fieldset:disabled .btn {
 .my-3 {
   margin-top: 1rem !important;
   margin-bottom: 1rem !important;
-  color: #2f9660;
 }
 
 .my-4 {
