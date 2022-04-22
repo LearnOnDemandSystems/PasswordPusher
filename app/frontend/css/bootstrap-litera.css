@@ -3226,14 +3226,14 @@ pre {
   
   .btn-primary {
     color: #fff;
-    background-color: #2a9fd6;
-    border-color: #2a9fd6;
+    background-color: #2f9660;
+    border-color: #2f9660;
   }
   
   .btn-primary:hover {
     color: #fff;
-    background-color: #2487b6;
-    border-color: #227fab;
+    background-color: #1a7b4a;
+    border-color: #1a7b4a;
   }
   
   .btn-check:focus + .btn-primary, .btn-primary:focus {
