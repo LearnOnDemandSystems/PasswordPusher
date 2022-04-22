@@ -655,6 +655,7 @@ pre {
     font-size: calc(1.625rem + 4.5vw);
     font-weight: 300;
     line-height: 1.2;
+    color: #2f9660;
   }
   
   @media (min-width: 1200px) {
