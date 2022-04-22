@@ -3240,21 +3240,21 @@ pre {
     color: #fff;
     background-color: #2487b6;
     border-color: #227fab;
-    box-shadow: 0 0 0 0.25rem rgba(74, 173, 220, 0.5);
+    box-shadow: 0 0 0 0.25rem rgba(47, 150, 96, 0.5);
   }
   
   .btn-check:checked + .btn-primary,
   .btn-check:active + .btn-primary, .btn-primary:active, .btn-primary.active,
   .show > .btn-primary.dropdown-toggle {
     color: #fff;
-    background-color: #227fab;
-    border-color: #2077a1;
+    background-color: #2f9660;
+    border-color: #1a7b4a;
   }
   
   .btn-check:checked + .btn-primary:focus,
   .btn-check:active + .btn-primary:focus, .btn-primary:active:focus, .btn-primary.active:focus,
   .show > .btn-primary.dropdown-toggle:focus {
-    box-shadow: 0 0 0 0.25rem rgba(74, 173, 220, 0.5);
+    box-shadow: 0 0 0 0.25rem rgba(47, 150, 96, 0.5);
   }
   
   .btn-primary:disabled, .btn-primary.disabled {
